@@ -1,0 +1,13 @@
+gcc - command to compiler
+-o [exec] the name of the exec you want to use
+-c the name of the object file
+
+-Wall - Enable warnings about constructors and language specific warnings
+-Wextra - Other errors not in Wall
+-pedantic - The most annoying compiler flag yelling at you for nothing like empty structs 
+-Werror - Make every warning an error [Only if you want to suffer]
+
+
+Examples:
+gcc -o dog dog.c -Wall -Wextra -pedantic -Werror
+gcc -c dog.c -Wall
